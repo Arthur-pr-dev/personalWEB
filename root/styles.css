@@ -192,24 +192,24 @@ footer {
 }
 
 .socials a {
-  font-size: 2rem; /* Adjust icon size */
-  margin: 0 1rem; /* Spacing between icons */
+  font-size: 2rem; 
+  margin: 0 1rem; 
   color: #333;
   transition: color 0.3s ease;
 }
 
 .socials a:hover {
-  color: #0099cc; /* Change icon color on hover */
+  color: #0099cc; 
 }
 
 .socials i {
-  font-size: 2rem; /* Ensures the icons are large enough */
+  font-size: 2rem; 
 }
 
 /* For mobile screens */
 @media screen and (max-width: 768px) {
   .socials a {
-    font-size: 1.5rem; /* Smaller icons for mobile */
+    font-size: 1.5rem; 
   }
 }
 
