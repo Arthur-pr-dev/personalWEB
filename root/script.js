@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", () => {
   translatePage("lv");
   document.getElementById("year").textContent = new Date().getFullYear();
 
-  // Pievieno fona attēlu visam ķermenim
+
   document.body.style.backgroundImage = "url('photos/background.jfif')";
   document.body.style.backgroundSize = "cover";
   document.body.style.backgroundPosition = "center";
@@ -108,11 +108,11 @@ const form = document.getElementById("contactForm");
     // Funkcija nosūtīšanai uz Gmail
     const sendMail = () => {
         const mailtoLink = `https://mail.google.com/mail/?view=cm&fs=1&to=tavs.epasts@piem.lv&su=Ziņa no ${encodeURIComponent(name)}&body=Vārds: ${name}%0AE-pasts: ${email}%0AZiņa:%0A${encodeURIComponent(message)}`;
-        window.location.href = mailtoLink; // Atver Gmail vai citu e-pasta klientu
-        form.reset(); // Notīra formu pēc nosūtīšanas
+        window.location.href = mailtoLink; 
+        form.reset(); 
     };
 
-    sendMail(); // Izsaucam nosūtīšanas funkciju
+    sendMail();
     });
 
 });
