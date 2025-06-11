@@ -15,10 +15,10 @@
     <nav>
       <div class="logo">📸 Arturs Gruzbarzdis</div>
       <ul class="nav-links">
-        <li><a href="#greeting" data-translate="nav_greeting"></a></li>
-        <li><a href="#bio" data-translate="nav_bio"></a></li>
-        <li><a href="#gallery" data-translate="nav_gallery"></a></li>
-        <li><a href="#contact" data-translate="nav_contact"></a></li>
+        <li><a href="#greeting" data-translate="nav_greeting">Welcome</a></li>
+        <li><a href="#bio" data-translate="nav_bio">About</a></li>
+        <li><a href="#gallery" data-translate="nav_gallery">Gallery</a></li>
+        <li><a href="#contact" data-translate="nav_contact">Contact</a></li>
       </ul>
       <select id="languageSwitcher">
         <option value="lv">LV</option>
@@ -28,31 +28,31 @@
   </header>
 
   <section id="greeting">
-    <h1 data-translate="greeting"></h1>
-    <p data-translate="short_desc"></p>
+    <h1 data-translate="greeting">Welcome to AG Photography</h1>
+    <p data-translate="short_desc">Capturing moments that matter.</p>
   </section>
 
   <section id="bio">
-    <h2 data-translate="bio_title"></h2>
-    <p data-translate="bio_text"></p>
+    <h2 data-translate="bio_title">About Me</h2>
+    <p data-translate="bio_text">I am a passionate photographer with a love for capturing special moments.</p>
   </section>
 
   <section id="gallery">
-    <h2 data-translate="gallery_title"></h2>
+    <h2 data-translate="gallery_title">Gallery</h2>
     <div class="gallery-container" id="galleryContainer"></div>
   </section>
 
   <section id="contact">
-    <h2 data-translate="contact_title"></h2>
+    <h2 data-translate="contact_title">Contact</h2>
     <form id="contactForm">
-      <label data-translate="label_name" for="name"></label>
+      <label data-translate="label_name" for="name">Your Name</label>
       <input type="text" id="name" required />
-      <label data-translate="label_email" for="email"></label>
+      <label data-translate="label_email" for="email">Your Email</label>
       <input type="email" id="email" required />
-      <label data-translate="label_message" for="message"></label>
+      <label data-translate="label_message" for="message">Your Message</label>
       <textarea id="message" rows="5" required></textarea>
-      <label><input type="checkbox" id="robotCheck" /> <span data-translate="label_robotcheck"></span></label>
-      <button type="submit" data-translate="btn_send"></button>
+      <label><input type="checkbox" id="robotCheck" /> <span data-translate="label_robotcheck">I'm not a robot</span></label>
+      <button type="submit" data-translate="btn_send">Send Message</button>
     </form>
   </section>
 
